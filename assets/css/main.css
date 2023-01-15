@@ -1,16 +1,7 @@
-button {
-    color: red;
-    width: 200px;
-    text-decoration-color: black;
-}
 
-#mypicture {
-    width: 300px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
+body {
+    color: white;
+    background-image: url("../img/background.jpeg")
 }
 
 .row-1 {
@@ -19,5 +10,51 @@ button {
     justify-content: center;
     gap: 200px;
     background-size: contain;
-    background-image: url()
+    margin-bottom: 100px;
 }
+
+.about-me {
+    border-color: darkgoldenrod;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+button {
+    color: red;
+    width: 200px;
+}
+
+#mypicture {
+    width: 200px;
+}
+.socials {
+   background-color: darkgoldenrod;
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+#title_certificates {
+    text-align: center;
+    font-size: 80px;
+}
+.cert-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cert-img {
+    width: 600px;
+}
+
+
+
+
+
